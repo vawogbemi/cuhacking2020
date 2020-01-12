@@ -2732,5 +2732,5 @@ console.log(filtered);*/
 var valuesOnly = Object.values(data);
 
 console.log(valuesOnly.filter(function(item){
-    return item.event == "door closed";         
+    return item["device-id"] == "ap1-1";         
 }));

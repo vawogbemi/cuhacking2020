@@ -1,4 +1,5 @@
 body {
+  background-color: #000000;
   font-family: "Lato", sans-serif;
 }
 
@@ -9,7 +10,7 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color: #ED202E;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -36,10 +37,48 @@ body {
   margin-left: 50px;
 }
 
+.characters{
+    text-align: center;
+}
+
+.sidebar2 {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 11;
+  top: 0;
+  right: 0;
+  background-color: #ED202E;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar2 a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar2 a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar2 .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
 .openbtn {
   font-size: 20px;
   cursor: pointer;
-  background-color: #111;
+  background-color: #ED202E;
   color: white;
   padding: 10px 15px;
   border: none;
@@ -54,8 +93,88 @@ body {
   padding: 16px;
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 18px;}
 }
+
+.title{
+    text-align: center;
+}
+
+#data{
+    text-align: center;
+}
+
+.mapelement{
+    position: absolute;
+    z-index: 10;
+    
+    
+}
+
+.mapelement:hover{
+    
+}
+
+.ap{
+    height:60px;
+    width: 75px;
+}
+
+#ap11{
+    top:70px;
+    left:100px;
+}
+
+
+#ap12{
+    top:50px;
+    left:290px;
+}
+
+
+#ap13{
+    top:300px;
+    left:290px;
+}
+
+
+#ap14{
+    top:170px;
+    left:540px;
+}
+
+.ds{
+    height:60px;
+    width: 50px;
+} 
+
+#ds11{
+    top:140px;
+    left:120px;
+}#ds12{
+    top:265px;
+    left:140px;
+}#ds13{
+    top:-10px;
+    left:490px;
+}#ds14{
+    top:170px;
+    left:540px;
+}#ds15{
+    top:170px;
+    left:540px;
+}#ds16{
+    top:170px;
+    left:540px;
+}#ds17{
+    top:170px;
+    left:540px;
+}
+
