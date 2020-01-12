@@ -12,5 +12,3 @@ function closeNav() {
 }
 
 
-obj = $.getJSON("Murder-on-the-2nd-Floor-Raw-Data.json")obj = $.getJSON("Murder-on-the-2nd-Floor-Raw-Data.json")
-var jsonHtmlTable = ConvertJsonToTable(obj, 'jsonTable', null, 'Download');

@@ -5,7 +5,13 @@
     <link rel="stylesheet" href="css/index.css" type="text/css">
     <script type="text/javascript" src="../cuhacking2020/js/index.js"></script>
     
-    
+    <!--bootstrap-->
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
 </head>
     
 
@@ -14,22 +20,22 @@
     <div id="mySidebar" class="sidebar">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
       <br>
-      <p id ="demo"></p>
     </div>
 
     <div id="main">
-        <button class="openbtn" onclick="openNav()">☰ Open Sidebar</button>  
+        <button class="openbtn" onclick="openNav()">☰</button>  
     </div>
-    
-    <div class="map" id="firstFloor">
-        <img src = "images/">
+    <div class="container">
+        <div class="col-sm-3" id = "floors">
+            <img src = "images/legend.png">
+        </div>
 
-    </div>
-    
-    <div class="map" id="secondFloor">
-        <img src = "images/">
-    </div>
+        <div class="main col-sm-8" id="floors">
+            <img src = "images/firstFloor.png">
 
+            <img src = "images/secondFloor.png">
+        </div>
+    </div>
 
 </body>
 </html>
