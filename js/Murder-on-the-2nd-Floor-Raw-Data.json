@@ -1,4 +1,4 @@
-var data = [{
+{
     "1578151801": {
         "device": "access point", 
         "device-id": "ap1-1", 
@@ -2712,31 +2712,3 @@ var data = [{
         "guest-id": "n/a"
     }
 }
-]
-/*var keysOnly = Object.keys(data);
-var valuesOnly = Object.values(data);
-var filtered;
-var x;
-
-function myFunction(arr, type, keyword){
-for (x of arr){
- if ( x.value in valuesOnly.filter(function(item){return item[type] == keyword;}) ){
-     filtered.push(arr[x])
-        }
-    }
-}
-
-myFunction(data, "guest-id" ,"Veronica")
-console.log(filtered);*/
-
-//filter names
-var valuesOnly = Object.values(data);
-
-console.log(valuesOnly.filter(function(item){
-    return item["guest-id"] == "Veronica";         
-}));
-
-//filter time
-console.log(data.filter(function(item){
-    return item > "1578188570";         
-}));
